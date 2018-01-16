@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Student> mydata = new ArrayList();
         mydata.add(new Student(1, "Bob", 95));
         mydata.add(new Student(2, "Mary", 98));
-        mydata.add(new Student(3, "Peter", 80));
+        mydata.add(new Student(3, "Peter", 70));
 
         File f = new File(getFilesDir(), "myfile2.txt");
         try {
