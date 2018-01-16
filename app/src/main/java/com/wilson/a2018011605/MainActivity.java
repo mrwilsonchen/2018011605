@@ -46,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void click1(View v)
     {
-        myRef.setValue("Hello, World!");
+        myRef.setValue("Hello, World!!!");
+    }
+    public void click3(View v)
+    {
+        TextView tv = (TextView) findViewById(R.id.textView);
+        TextView tv3 = (TextView) findViewById(R.id.textView3);
+
+        tv3.setText(tv.getText());
+        //myRef.setValue("Hello, World!!!");
     }
 }
