@@ -50,10 +50,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void click3(View v)
     {
-        TextView tv = (TextView) findViewById(R.id.textView);
+        //TextView tv = (TextView) findViewById(R.id.textView);
         TextView tv3 = (TextView) findViewById(R.id.textView3);
+        //String value = dataSnapshot.getValue(String.class);
 
-        tv3.setText(tv.getText());
+        tv3.setText("ABC");
         //myRef.putValue(tv.getText());
     }
 }
