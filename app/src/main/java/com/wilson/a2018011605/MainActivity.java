@@ -54,6 +54,6 @@ public class MainActivity extends AppCompatActivity {
         TextView tv3 = (TextView) findViewById(R.id.textView3);
 
         tv3.setText(tv.getText());
-        //myRef.setValue("Hello, World!!!");
+        //myRef.putValue(tv.getText());
     }
 }
